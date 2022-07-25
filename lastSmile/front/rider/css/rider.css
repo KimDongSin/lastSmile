@@ -1,0 +1,1106 @@
+.banner_wrapper {
+    position: relative;
+    background: url('../../../common/images/rider_bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 680px;
+    width: 100%;
+}
+
+.banner_wrapper .title_wrapper {
+    padding-top: 182px;
+    padding-left: 10%;
+}
+
+.title_wrapper .title {
+    margin-bottom: 20px;
+}
+
+.title_wrapper .title h1 {
+    font-size: 72px;
+    font-weight: 400;
+    font-family: 'Black Han Sans', sans-serif; 
+    line-height: 70px;
+    color: #FFFFFF;
+    letter-spacing: -2.16px;
+}
+
+.title_wrapper .sub_title {
+    margin-bottom: 20px;
+}
+
+.title_wrapper .sub_title p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    color: #FFFFFF;
+    letter-spacing: -0.32px;
+}
+
+.title_wrapper .sub_title p br.mo_br {
+    display: none;
+}
+
+.title_wrapper a {
+    display: block;
+    width: 200px;
+    height: 56px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 56px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    color: #191F2C;
+    background: #FFFFFF;
+    border-radius: 32px;
+}
+
+
+
+/*  */
+.intro_wrapper {
+    margin: 91px 0 100px;
+}
+
+.intro_wrapper .title {
+    margin: 91px 0 34px;
+    text-align: center;
+}
+
+.intro_wrapper .title span {
+    position: relative;
+    top: 30px;
+    transition-duration: 1s;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 60px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    color: #191F2C;
+    letter-spacing: -1.92px;
+    opacity: 0;
+}
+
+.intro_wrapper ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro_wrapper ul li {
+    text-align: center;
+    padding: 0 17px;
+}
+
+
+.intro_wrapper ul li img {
+    margin-bottom: 24px;
+}
+
+.intro_wrapper ul li span {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    line-height: 29px;
+    color: #1C1C37;
+    letter-spacing: -0.6px;
+    margin-bottom: 15px;
+}
+
+.intro_wrapper ul li p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    line-height: 29px;
+    color: #505050;
+    letter-spacing: -0.48px;
+}
+
+
+
+/*  */
+.app_wrapper {
+    background: #F5F5F5;
+    padding: 50px 0;
+}
+
+.app_wrapper .app_wrapper_bg {
+    max-width: 1097px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.app_wrapper .app_img {
+    margin-right: 55px;
+}
+
+
+.app_wrapper .app_info {
+
+}
+
+.app_info .title {
+    margin-bottom: 45px;    
+}
+
+.app_info .title span {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    line-height: 48px;
+    color: #191F2C;
+    letter-spacing: -1.6px;
+}
+
+.app_info .app_feature {
+    padding: 10px 0;
+}
+
+.app_feature ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.app_feature ul li {
+    position: relative;
+    width: 353px;
+    margin-bottom: 27px;
+    padding: 32px 38px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    background: #ffffff;
+}
+
+.app_feature ul li:nth-child(2),
+.app_feature ul li:nth-child(4) {
+    top: 72px;
+}
+
+.app_feature ul li img {
+    margin-right: 23px;
+}
+
+.app_feature ul li .app_feature_info {
+
+}
+
+.app_feature_info span {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 19px;
+}
+
+.app_feature_info p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    line-height: 24px;
+    color: #505050;
+}
+
+
+
+/*  */
+.rider_ok_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 150px 0 180px;
+}
+
+.rider_ok_wrapper .ok_desc {
+    margin-right: 144px;
+}
+
+.ok_desc .title {
+    margin-bottom: 34px;
+}
+
+.ok_desc .title span {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 48px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    color: #191F2C;
+    letter-spacing: -1.6px;
+}
+
+.ok_desc ul {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.ok_desc ul li {
+    width: 444px;
+    padding: 28px 30px;
+    margin-bottom: 10px;
+    border-radius: 16px;
+    box-shadow: 0 3px 32px #0000000D;
+}
+
+.ok_desc ul li span {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 29px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    color: #F0831E;
+    letter-spacing: -0.84px;
+    display: block;
+    margin-bottom: 24px;
+}
+
+.ok_desc ul li p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    color: #191F2C;
+    letter-spacing: -0.54px;
+}
+
+.rider_ok_wrapper .equipment_img {
+
+}
+
+.rider_ok_wrapper .equipment_img img {
+
+}
+
+
+
+/*  */
+.swiper_wrapper {
+    width: 100%;
+    overflow: hidden;
+    background: #F0831E;
+    padding: 90px 0 220px;
+}
+
+.swiper_wrapper .title {
+    text-align: center;
+    margin-bottom: 76px;
+}
+
+.swiper_wrapper .title span {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 48px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    color: #FFFFFF;
+    letter-spacing: -1.6px;
+}
+
+.swiper_wrapper .swiper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+
+    padding: 76px 67px 61px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 733px;
+    position: relative;
+}
+
+.swiper-slide-active {
+    bottom: 20px;
+}
+
+.swiper-slide::after {
+    position: absolute;
+    content: url('../../../common/images/quotes_bg.png');
+    top: 25px;
+    right: 67px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide .swiper_review_user {
+    text-align: left;
+}
+
+.swiper_review_user span {
+    display: block;
+    position: relative;
+}
+
+.swiper_review_user .location {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    color: #999999;
+    margin-bottom: 11px;
+}
+
+.swiper_review_user .rider_name {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 29px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    color: #F0831E;
+    letter-spacing: -0.84px;
+    margin-bottom: 92px;
+}
+
+.swiper_review_user .rider_name::after {
+    position: absolute;
+    content: '';
+    background: #F0831E;
+    width: 100%;
+    height: 5px;
+    bottom: -11px;
+    left: 0;
+}
+
+.swiper-slide .review {
+    
+}
+
+.swiper-slide .review p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    color: #222A41;
+    letter-spacing: -0.4px;
+    text-align: left;
+}
+
+.swiper_button {
+    position: relative;
+    max-width: 90px;
+    margin: 0 auto;
+    top: 90px;
+}
+
+
+.swiper-button-next, 
+.swiper-container-rtl 
+.swiper-button-prev {
+    background-image: url('../../../common/images/swiper_next_btn.png');
+    right: 0;
+}
+
+.swiper-button-next, 
+.swiper-button-prev {
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+
+.swiper-button-prev, 
+.swiper-container-rtl 
+.swiper-button-next {
+    background-image: url('../../../common/images/swiper_prev_btn.png');
+    left: 0;
+}
+
+
+
+/*  */
+.brand_wrapper {
+    padding: 140px 0 237px;
+}
+
+.brand_wrapper .title {
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.brand_wrapper .title span {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    color: #505050;
+}
+
+.brand_wrapper .title span br { 
+    display: none;
+}
+
+.brand_wrapper .company_rate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 87px;
+}
+
+.company_rate .rate_item {
+    padding: 0 75px;
+    text-align: center;
+}
+
+.company_rate .rate_item span {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    color: #505050;
+    margin-bottom: 19px;
+}
+
+.company_rate .rate_item span.rate_score {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+    font-family: 'Black Han Sans', sans-serif; 
+    margin: 0;
+    letter-spacing: -2px;
+}
+
+.brand_wrapper .brand_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand_list img {
+    padding: 0 14px;
+}
+
+
+
+/*  */
+/* select custom */
+.select_box {
+    height: 60px;
+    position: relative;
+    border: 1px solid #A7A7A7;
+    border-radius: 8px;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background: #fff;
+
+}
+
+.select_box::after {
+    content: url('../../../common/images/arrow_down.png');
+}
+
+.select_box span {
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.select_box ul {
+    position: absolute;
+    width: calc(100% + 2px);
+    border: 1px solid #A7A7A7;
+    border-radius: 8px;
+    top: -1px;
+    left: -1px;
+    background: #fff;
+    padding: 13px 0;
+    z-index: 10;
+
+    display: none;
+}
+
+.select_box ul li {
+    height: 33px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 33px;
+    padding: 0 16px;
+
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    color: #191F2C;
+}
+
+.select_box ul li:hover {
+    background: #F2F4FF;
+}
+
+.rider_apply_wrapper {
+    position: relative;
+    background: #F5F5F5;
+    padding: 60px 0 110px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+.rider_apply_wrapper::before {
+    content: url('../../../common/images/apply_bg.png');
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.rider_apply_wrapper .title {
+    margin-top: 33px;
+    margin-left: 297px;
+    margin-right: 151px;
+    z-index: 10;
+}
+
+.rider_apply_wrapper .title span {
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 48px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    letter-spacing: -1.6px;
+}
+
+.rider_apply_form {
+    z-index: 10;
+    background: #FFFFFF;
+    padding: 32px;
+    border-radius: 8px;
+}
+
+.rider_apply_form .apply_title {
+    margin-bottom: 44px;
+}
+
+.rider_apply_form .apply_title span {
+    display: initial;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 37px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    color: #333333;
+}
+
+.rider_apply_form label,
+.rider_apply_form span {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    color: #191F2C;
+    margin-bottom: 10px;
+}
+
+.rider_apply_form .input_box_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rider_apply_form .input_box_wrapper input {
+    width: 240px;
+    height: 60px;
+    padding: 0 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    color: #191F2C;
+    margin-bottom: 10px;
+    border: 1px solid #A7A7A7;
+    border-radius: 8px;
+}
+
+.rider_apply_form .input_box_wrapper div:first-child input {
+    margin-right: 32px;
+}
+
+.rider_apply_form .input_box_wrapper input::placeholder {
+    color: #A7A7A7;
+    font-weight: 400;
+}
+
+.input_box_wrapper {
+    width: 100%;
+    margin-bottom: 46px;
+}
+
+.name_input {
+    width: 100%;
+}
+
+input:focus{
+    border: 1px solid #F0831E !important;
+}
+
+.rider_apply_form .input_box_wrapper .name_input input { 
+    width: 100%;
+}
+
+.input_box_wrapper.birth {
+    margin-bottom: 74px;
+}
+
+.select_box_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.select_box_wrapper .select_item {
+
+}
+
+.select_box {
+    width: 240px;
+}
+
+.select_box_wrapper .select_item:first-child {
+    margin-right: 32px;
+}
+
+.select_box span {
+    margin: 0;
+    color: #A7A7A7;
+    font-weight: 400;
+}
+
+.rider_apply_form .apply_btn {
+    width: 100%;
+}
+
+.apply_btn button {
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 60px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    color: #FFFFFF;
+    border-radius: 8px;
+    background: #F0831E;
+    border: none;
+}
+
+
+
+@media (max-width : 800px) {
+
+    .banner_wrapper {
+        height: 707px;
+    }
+
+    .banner_wrapper .title_wrapper {
+        padding-top: 328px;
+        padding-left: 2.6%;
+    }
+
+    .title_wrapper .title {
+        margin-bottom: 13px;
+    }
+
+    .title_wrapper .title h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .title_wrapper .sub_title {
+        margin-bottom: 13px;
+    }
+
+    .title_wrapper .sub_title p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .title_wrapper .sub_title p br.mo_br {
+        display: block;
+    }
+
+    .intro_wrapper {
+        margin-top: 59px;
+        margin-bottom: 65px;
+    }
+
+    .intro_wrapper .title {
+        margin: 59px 0 36px;
+    }
+
+    .intro_wrapper .title span {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .intro_wrapper ul {
+        overflow: auto;
+        min-width: 100%;
+        justify-content: left;
+    }
+
+    .intro_wrapper ul li {
+        flex-shrink: 0;
+        /* min-width: 212px; */
+    }
+
+    .intro_wrapper ul li img {
+        width: 109px;
+        height: 109px;
+        margin-bottom: 24px;
+    }
+
+    .intro_wrapper ul li span {
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 13px;
+    }
+
+    .intro_wrapper ul li p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .app_wrapper {
+        height: 695px;
+        padding-top: 46px;
+    }
+
+    .app_wrapper .app_wrapper_bg {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .app_info .title {
+        text-align: center;
+    }
+
+    .app_info .title span {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .app_feature ul li {
+        width: 184px;
+        flex-direction: row-reverse;
+        padding: 12px 14px;
+    }
+
+    .app_feature_info span {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .app_feature ul li img {
+        width: 31px;
+        height: 31px;
+        margin: 0;
+        position: relative;
+        top: -9px;
+        right: -9px;
+    }
+
+    .app_feature ul li:nth-child(2), .app_feature ul li:nth-child(4) {
+        top: 51px;
+    }
+
+    .app_feature_info p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .app_wrapper .app_img {
+        margin: 0;
+        position: relative;
+        z-index: 10;
+    }
+
+    .app_wrapper .app_img img {
+        width: 170px;
+        height: 345px;
+    }
+
+
+    .rider_ok_wrapper .equipment_img {
+        display: none;
+    }
+
+    .rider_ok_wrapper {
+        padding: 192px 26px 65px;
+    }
+
+    .ok_desc .title {
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    .ok_desc .title span {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .ok_desc ul li {
+        width: 100%;
+        border-radius: 16px;
+        box-shadow: 0 3px 32px #0000000d;
+    }
+
+    .ok_desc ul li span {
+        font-size: 20px;
+        line-height: 29px;
+        margin-bottom: 17px;
+    }
+
+    .ok_desc ul li p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .swiper_wrapper {
+        padding: 50px 0 90px;
+    }
+
+    .swiper_wrapper .title span {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .swiper-slide {
+        width: 303px;
+        padding: 30px 28px;
+    }
+
+    .swiper_review_user .location {
+        font-size: 10px;
+        transform: scale(.8);
+        line-height: 9px;
+        margin-bottom: 5px;
+    }
+
+    .swiper_review_user .rider_name {
+        font-size: 14px;
+        line-height: 29px;
+        margin-bottom: 38px;
+    }
+
+    .swiper_review_user .rider_name::after {
+        height: 2px;
+        bottom: 4px;
+    }
+
+    .swiper-slide::after {
+        content: url('../../../common/images/m_quotes_icon.png');
+        top: 20px;
+        right: 27px;
+    }
+
+    .swiper-slide .review p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .swiper_button {
+        top: 30px;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        width: 34px;
+        height: 34px;
+    }
+
+    .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+        left: 5px;
+    }
+
+    .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+        right: 5px;
+    }
+
+    .brand_wrapper {
+        padding: 80px 0;
+    }
+
+    .brand_wrapper .title {
+        margin-bottom: 41px;
+    }
+
+    .brand_wrapper .title span {
+        font-size: 18px;    
+        line-height: 28px;
+    }
+
+    .brand_wrapper .title span br { 
+        display: block;
+    }
+    
+    .company_rate .rate_item {
+        padding: 0 22px;
+    }
+
+    .company_rate .rate_item span {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .company_rate .rate_item span.rate_score {
+        font-size: 46px;
+    }
+
+    .brand_wrapper .company_rate {
+        margin-bottom: 52px;
+    }
+
+    .brand_wrapper .brand_list {
+        justify-content: left;
+        overflow: auto;
+        min-width: 100%;
+    }
+    
+    .brand_wrapper .brand_list li {
+        padding: 6px;
+    }
+
+    .brand_list img {
+        width: 80px;
+        height: 40px;
+        padding: 0;
+    }
+
+    .rider_apply_wrapper {
+        flex-direction: column;
+        padding: 70px 14px 74px;
+        overflow: hidden;
+    }
+
+    .rider_apply_wrapper .title {
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    .rider_apply_wrapper .title span {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .rider_apply_form {
+        width: 100%;
+        padding: 20px;
+    }
+    .rider_apply_form .input_box_wrapper > div,
+    .rider_apply_form .input_box_wrapper {
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .rider_apply_form .input_box_wrapper {
+        margin: 0;
+    }
+
+    .rider_apply_form .input_box_wrapper > div {
+        margin-bottom: 15px;
+    }
+
+    .rider_apply_form .input_box_wrapper div:first-child input {
+        margin: 0;
+    }
+
+    .rider_apply_form .input_box_wrapper input {
+        width: 100%;
+        height: 36px;
+        margin: 0;
+        font-size: 12px;
+        padding: 0 14px;
+    }
+
+    .select_box_wrapper {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .select_box_wrapper .select_item {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .select_box_wrapper .select_item:first-child {
+        margin-right: 0;
+    }
+
+    .select_box {
+        width: 100%;
+        height: 36px;
+    }
+
+    .rider_apply_form .apply_btn {
+        margin-top: 5px;
+    }
+
+    .rider_apply_form label, .rider_apply_form span {
+        font-size: 14px;
+        margin-bottom: 2px;
+    }
+    .select_box span {
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .rider_apply_form .apply_title {
+        margin-bottom: 20px;
+    }
+
+    .rider_apply_wrapper::before {
+        left: 100%;
+        top: 36%;
+    }
+
+    .rider_apply_form .apply_title span {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .select_box ul {
+        padding: 1px 0;
+    }
+
+    .select_box ul li {
+        font-size: 12px;
+    }
+
+    .apply_btn button {
+        height: 43px;
+        line-height: 43px;
+        font-size: 16px;
+    }
+
+}

@@ -1,0 +1,232 @@
+/* ============================================================== */
+/* ============================ common */
+/* ============================================================== */
+span.orange_color {
+    color: #F0831E !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================================== */
+/* ============================ header */
+/* ============================================================== */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 0;
+    background: #ffffff00;
+    z-index: 100;
+}
+
+.header_wrapper {
+    width: 100%;
+    height: 64px;
+    padding: 16px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition-duration: .5s;
+}
+
+.logo {
+    
+}
+
+.logo span {
+    font-family: 'Black Han Sans', sans-serif; 
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+    letter-spacing: 1.2px;
+}
+
+.header_wrapper .nav_wrapper {
+
+}
+
+.nav_wrapper ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_wrapper ul li {
+    padding: 0 35px;
+}
+
+.nav_wrapper ul li:first-child {
+    padding-left: 0px;
+}
+
+.nav_wrapper ul li:last-child {
+    padding-right: 0px;
+}
+
+.nav_wrapper ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Black Han Sans', sans-serif; 
+    color: #ffffff66;
+    letter-spacing: -0.32px;
+}
+
+.nav_wrapper ul li.clicked a {
+    color: #ffffff;
+}
+
+.header_wrapper .partnership {
+
+}
+
+.partnership a {
+    display: block;
+    width: 138px;
+    height: 48px;
+    background: #ffffff;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif'; 
+    line-height: 48px;
+    color: #191F2C;
+}
+
+.mo_menu {
+    position: relative;
+    cursor: pointer;
+    height: 100%;
+    top: -9px;
+
+    display: none;
+}
+
+.mo_menu span {
+    position: absolute;
+    display: block;
+    width: 24px;
+    height: 3px;
+    background: #fff;
+    right: 0;
+    top: 0;
+}
+
+.mo_menu span:nth-child(2) {
+    top: 8px;
+}
+
+.mo_menu span:nth-child(3) {
+    top: 16px;
+}
+
+
+
+/*  */
+@media (max-width : 800px) {
+    
+    header {
+        height: initial;
+        /* background: #191F2C; */
+    }
+
+    .header_wrapper {
+        padding: 28px 15px 28px 23px;
+        height: initial;
+    }
+
+    .logo span {
+        font-size: 24px;
+    }
+
+    .nav_wrapper {
+        display: none;
+    }
+    .partnership {
+        display: none;
+    }
+
+    .mo_menu {
+        display: block;
+    }
+
+
+}
+
+/* ============================================================== */
+/* ============================ footer */
+/* ============================================================== */
+footer {
+    width: 100%;
+}
+
+.footer_wrapper {
+    width: 100%;
+    height: 176px;
+    padding: 0 134px 0 120px;
+    background: #191F2C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_wrapper span:first-child {
+    font-family: 'Black Han Sans', sans-serif; 
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+}
+
+.footer_wrapper span:last-child {
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif'; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+
+/*  */
+@media (max-width : 800px) {
+    .footer_wrapper {
+        width: 100%;
+        height: 107px;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        text-align: center;
+    }
+
+    .footer_wrapper span:first-child {
+        width: 100%;
+
+        display: block;
+        font-size: 24px;
+        line-height: 27px;
+        margin-bottom: 2px;
+        padding-top: 10px;
+    }
+
+    .footer_wrapper span:last-child {
+        width: 100%;
+
+        font-size: 10px;
+        transform: scale(0.8);
+    }
+
+}
